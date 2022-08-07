@@ -1,0 +1,305 @@
+@media screen and (max-width: 980px) {
+    header .header-ul li {
+        transition: color 0.3s;
+        padding: 100px 0;
+        display: none;
+    }
+
+    header .hamburger {
+        display: block;
+        font-weight: 600;
+        font-size: 29px;
+    }
+
+    .min-section .header-ul .learn,
+    .nav {
+        position: relative;
+    }
+
+    .min-section .header-ul .learn .learn-more,
+    .min-section .header-ul .navigate {
+        position: absolute;
+        top: 153px;
+        width: 240px;
+        height: 126px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+        visibility: hidden;
+        font-size: 14px;
+    }
+
+    .min-section .header-ul .news-posts {
+        position: absolute;
+        top: 80px;
+        width: 240px;
+        height: 88px;
+        line-height: 40px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+        visibility: hidden;
+        font-size: 14px;
+    }
+
+    .min-section .header-ul .learn .learn-more p,
+    .min-section .header-ul .nav .navigate p,
+    .min-section .header-ul .news .news-posts p {
+        color: #a6a089;
+        transition: color 0.3s;
+        padding-left: 35px;
+        padding-top: 25px;
+    }
+
+    .min-section .header-ul .learn .learn-more p:hover,
+    .min-section .header-ul .nav .navigate .coupon:hover,
+    .min-section .header-ul .news .news-posts p:hover {
+        color: black;
+    }
+
+    .min-section .header-ul .learn:hover .learn-more,
+    .min-section .header-ul .nav:hover .navigate,
+    .min-section .header-ul .news:hover .news-posts {
+        visibility: visible;
+    }
+
+    .min-section .header-ul .nav .navigate .coupon,
+    .min-section .header-ul .nav .navigate .stats {
+        position: relative !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 35px;
+        padding-top: 25px;
+        padding-right: 35px;
+
+    }
+
+    .min-section .header-ul .nav .navigate .coupon .cp-code {
+        position: absolute !important;
+        top: 0px;
+        left: -242px;
+        width: 240px;
+        height: 126px;
+        padding: 25px 35px;
+        background: white;
+        line-height: 40px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+        visibility: hidden;
+    }
+
+    .min-section .header-ul .nav .navigate .stats .stats-inner {
+        position: absolute !important;
+        top: 5px;
+        left: -242px;
+        width: 240px;
+        height: 126px;
+        padding: 25px 35px;
+        background: white;
+        line-height: 40px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+        visibility: hidden;
+    }
+
+    .min-section .header-ul .nav .navigate .coupon:hover .cp-code {
+        visibility: visible;
+    }
+
+    .min-section .header-ul .nav .navigate .stats:hover .stats-inner {
+        visibility: visible;
+    }
+
+    .min-section .header-ul .nav .navigate .coupon .cp-code h6,
+    .min-section .header-ul .nav .navigate .stats .stats-inner h6 {
+        font-size: 14px;
+        font-weight: normal;
+        transition: color 0.3s;
+    }
+
+    .min-section .header-ul .nav .navigate .coupon .cp-code h6:hover,
+    .min-section .header-ul .nav .navigate .stats .stats-inner h6:hover {
+        color: black;
+    }
+
+    .min-section {
+        display: none;
+    }
+
+    .min-section-active {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        background: #202830;
+        z-index: 9999;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .min-section .header-ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        width: 65%;
+    }
+
+    .min-section .header-ul li {
+        transition: color 0.3s;
+        padding: 18px 0;
+        width: 100%;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: red;
+    }
+
+    .min-section .header-ul li .home,
+    .down {
+        display: inline-block;
+        font-weight: 700;
+    }
+
+    .min-section .header-ul li:not(:first-child) {
+        border-top: 1px solid rgb(95, 94, 94);
+    }
+
+    .min-section .close {
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        font-size: 29px;
+        font-weight: 900;
+        display: block;
+    }
+}
+
+
+/* 923px */
+/* 923px */
+/* 923px */
+
+@media screen and (max-width: 923px) {
+    .third-section {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* 760px */
+/* 760px */
+/* 760px */
+
+@media screen and (max-width: 760px) {
+    footer .footer-upper {
+        padding-left: 40px;
+    }
+
+    footer .footer-lower .copyright p {
+        font-size: 13px;
+    }
+
+    footer .footer-lower {
+        padding: 50px 50px 50px 40px;
+    }
+
+}
+
+/* 575px */
+/* 575px */
+/* 575px */
+
+@media screen and (max-width: 575px) {
+    footer .footer-lower {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .third-section .team {
+        width: 400px;
+    }
+
+    .third-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+/* 460px */
+/* 460px */
+/* 460px */
+
+@media screen and (max-width: 460px) {
+    .third-section .team {
+        width: 350px;
+    }
+
+    .third-section .team .p-bold {
+        font-size: 12px;
+    }
+
+    .third-section .team .p-light {
+        font-size: 12px;
+    }
+
+    .third-section .team {
+        gap: 14px;
+        padding-left: 15px;
+    }
+
+    .first-section p {
+        font-size: 13px;
+    }
+
+}
+
+/* 408px */
+/* 408px */
+/* 408px */
+
+@media screen and (max-width: 408px) {
+    .first-section {
+        flex-direction: column;
+    }
+
+    .first-section h3 {
+        position: relative;
+        margin-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .first-section h3::after {
+        top: 35px;
+        right: 75px;
+    }
+    .second-section h1 {
+        font-size: 20px;
+    }
+}
+
+/* 390px */
+/* 390px */
+/* 390px */
+
+@media screen and (max-width: 390px) {
+    .third-section .team {
+        width: 300px;
+    }
+}
+
+/* 270px */
+/* 270px */
+/* 270px */
+
+@media screen and (max-width: 270px) {
+    .third-section .team {
+        width: 230px;
+    }
+}
